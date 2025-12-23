@@ -68,7 +68,7 @@ void WT_ProjectWidget::init()
         );
 
     // 1. "新建"按钮设置
-    QString centerPicStyle = "border-image: url(:/new/prefix1/Resource/Mon1.png);";
+    QString centerPicStyle = "border-image: url(:/new/prefix1/Resource/PRO1.png);";
     QString bottomName = "新建";
     ui->MonitState1->setTextInfo(centerPicStyle, topPicStyle, topName, bottomName);
     ui->MonitState1->setFixedSize(128, 160);
@@ -82,7 +82,7 @@ void WT_ProjectWidget::init()
     connect(ui->MonitState1, SIGNAL(sigClicked()), this, SLOT(onNewProjectClicked()));
 
     // 2. "打开"按钮设置
-    centerPicStyle = "border-image: url(:/new/prefix1/Resource/Mon2.png);";
+    centerPicStyle = "border-image: url(:/new/prefix1/Resource/PRO2.png);";
     bottomName = "打开";
     ui->MonitState2->setTextInfo(centerPicStyle, topPicStyle, topName, bottomName);
     ui->MonitState2->setFixedSize(128, 160);
@@ -97,7 +97,7 @@ void WT_ProjectWidget::init()
 
     // 3. "关闭"按钮设置 (原读取按钮)
     // 建议替换为关闭图标，若无则暂用 Mon3.png
-    centerPicStyle = "border-image: url(:/new/prefix1/Resource/Mon3.png);";
+    centerPicStyle = "border-image: url(:/new/prefix1/Resource/PRO3.png);";
     bottomName = "关闭";
     ui->MonitState3->setTextInfo(centerPicStyle, topPicStyle, topName, bottomName);
     ui->MonitState3->setFixedSize(128, 160);
@@ -113,7 +113,7 @@ void WT_ProjectWidget::init()
     connect(ui->MonitState3, SIGNAL(sigClicked()), this, SLOT(onCloseProjectClicked()));
 
     // 4. "退出"按钮设置
-    centerPicStyle = "border-image: url(:/new/prefix1/Resource/Mon4.png);";
+    centerPicStyle = "border-image: url(:/new/prefix1/Resource/PRO4.png);";
     bottomName = "退出";
     ui->MonitState4->setTextInfo(centerPicStyle, topPicStyle, topName, bottomName);
     ui->MonitState4->setFixedSize(128, 160);
